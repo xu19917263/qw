@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<!-- 头部 -->
+<header id="header" class="container-fluid">
+</header>
+<!-- 内容区域 -->
+<main id="main" class="container-fluid">
+  <!--你好:图片+文字-->
+  <div class="designers mb-5" style="position:relative">
+    <img class="w-100" src="images/background/header.jpg" alt="">
+    <div class="nav" style="position:absolute;z-index:1;top:35%;left:35%">
+      <div class="col-12 text-light">
+        <h1 style="font-size:100px;">我们是</h1>
+        <h1 style="font-size:100px;">创意设计师</h1>
+      </div>
+      <div class="col-12">
+        <a href="javascript:;"  class="btn btn-secondary">现在</a>
+        <a href="javascript:;"  class="btn btn-danger">开始</a>
+        <a href="javascript:;"  class="btn btn-danger">下载</a>
+      </div>
+    </div>
+  </div>
+
+  <!--关于我们-->
+  <div class="nav my-lg-3 my-sm-0">
+    <div class="col-lg-6" style="border:0px solid transparent;">
+      <div class="card">
+        <div class="card-header">
+          关于我们
+        </div>
+        <div class="card-body">
+          Lorem存有悲坐阿梅德，consectetuer adipiscing ELIT，sed的直径nonummy NIBH euismod tincidunt UT laoreet dolore麦格纳aliquam ERAT volutpat。这就是为什么，在多年都将我来了，谁应nostrud晚会结束ullamcorper suscipit lobortis nisl UT aliquip了她的配方的优势。Lorem存有悲坐阿梅德，consectetuer adipiscing ELIT，sed的直径nonummy NIBH euismod tincidunt UT laoreet dolore麦格纳aliquam ERAT volutpat。为了感谢您的光临
+        </div>
+        <div class="card-footer">
+          <a href="" class="btn btn-danger">现在下载</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <div id="parent">
+        <div class="card mb-2">
+          <div class="card-header p-0 ">
+            <a href="#one" onclick="changeImg" class="card-link text-muted" data-toggle="collapse">
+              <div></div><span class="mb-0">独特的设计</span>
+            </a>
+          </div>
+          <div id="one" class="collapse" data-parent="#parent">
+            <div class="card-body">
+              Lorem ipsum dolor sit amet.
+            </div>
+          </div>
+        </div>
+        <div class="card mb-2">
+          <div class="card-header p-0">
+            <a href="#two" class="card-link text-muted" data-toggle="collapse"><div></div><span class="mb-0">精英团队</span></a>
+          </div>
+          <div id="two" class="collapse" data-parent="#parent">
+            <div class="card-body">
+              Lorem ipsum dolor sit amet.
+            </div>
+          </div>
+        </div>
+        <div class="card mb-2 ">
+          <div class="card-header p-0">
+            <a href="#three" class="card-link text-muted" data-toggle="collapse"><div></div><span class="mb-0">更好的服务</span></a>
+          </div>
+          <div id="three" class="collapse" data-parent="#parent">
+            <div class="card-body">
+              Lorem ipsum dolor sit amet.
+            </div>
+          </div>
+        </div>
+        <div class="card  ">
+          <div class="card-header p-0">
+            <a href="#four" class="card-link text-muted" data-toggle="collapse"><div></div><span class="mb-0">免费更新</span></a>
+          </div>
+          <div id="four" class="collapse" data-parent="#parent">
+            <div class="card-body">
+              Lorem ipsum dolor sit amet.
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!--我们很有创意-->
+  <div class="nav women mt-3">
+    <div class="col-lg-4 pb-sm-5">
+      <div>
+        <div>
+          <img src="images/Originality/xiaohuomiao.png" alt=""/>
+        </div>
+        <h6>我们很有创意</h6>
+      </div>
+      <h6 class="mt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda dolorem exercitationem id laboriosam numquam odio quae qui reiciendis tenetur unde!</h6>
+    </div>
+    <div class="col-lg-4 pb-sm-5">
+      <div>
+        <div>
+          <img src="images/Originality/youshandegongjiangxinglingdao.png" alt=""/>
+        </div>
+        <h6>我们很友善</h6>
+      </div>
+      <h6 class="mt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda dolorem exercitationem id laboriosam numquam odio quae qui reiciendis tenetur unde!</h6>
+    </div>
+    <div class="col-lg-4 pb-sm-5">
+      <div>
+        <div>
+          <img src="images/Originality/xinaixin.png" alt=""/>
+        </div>
+        <h6>我们喜欢极简主义</h6>
+      </div>
+      <h6 class="mt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda dolorem exercitationem id laboriosam numquam odio quae qui reiciendis tenetur unde!</h6>
+    </div>
+  </div>
+
+
+  <!--视频-->
+  <div class="text-center my-5">
+    <video  width="100%" height="500px" src="./video/v-show.mp4" controls ></video>
+  </div>
+  <!--特色工作-->
+  <div class="text-center" >
+    <h1>特色工作</h1>
+    <div class="text-center" style="display:block;  width: 85px;height: 2px;margin: 20px auto;background: #ff6863;"> </div>
+    <h6>完成的项目</h6>
+  </div>
+  <!--轮播图-->
+  <div class="carousel text-center" id="demo" data-ride="carousel">
+    <!--轮播图片-->
+    <div class="carousel-inner">
+      <div class="carousel-item active"><img class="w-100" src="images/fprojects/1.jpg" alt=""/></div>
+      <div class="carousel-item "><img class="w-100" src="images/fprojects/2.jpg" alt=""/></div>
+      <div class="carousel-item "><img class="w-100" src="images/fprojects/3.jpg" alt=""/></div>
+      <div class="carousel-item "><img class="w-100" src="images/fprojects/4.jpg" alt=""/></div>
+      <div class="carousel-item "><img class="w-100" src="images/fprojects/5.jpg" alt=""/></div>
+    </div>
+    <!--轮播指示符-->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+      <li data-target="#demo" data-slide-to="3"></li>
+      <li data-target="#demo" data-slide-to="4"></li>
+    </ul>
+    <!--轮播箭头-->
+    <a href="#demo" data-slide="prev" class="carousel-control-prev"><span class="carousel-control-prev-icon"></span></a>
+    <a href="#demo" data-slide="next" class="carousel-control-next"><span class="carousel-control-next-icon"></span></a>
+  </div>
+
+  <!--我们的服务-->
+  <div class="text-center mt-4" >
+    <h1>我们的服务</h1>
+    <div style="display:block;  width: 85px;height: 2px;margin: 20px auto;background: #ff6863;"> </div>
+    <h6>完成的项目</h6>
+  </div>
+  <div class="nav">
+    <div class="col-lg-4 col-sm-12 mt-4">
+      <div class="text-center" >
+        <img src="images/Originality/xiaohuomiao.png" alt=""/>
+        <h5>现代奇迹</h5>
+        <div style="display:block;  width: 85px;height: 2px;margin: 20px auto;background: #ff6863;"> </div>
+        <h6>完成的项目</h6>
+      </div>
+    </div>
+    <div class="col-lg-4 col-sm-12 mt-4">
+      <div class="text-center" >
+        <img src="images/Originality/xinaixin.png" alt=""/>
+        <h5>现代奇迹</h5>
+        <div style="display:block;  width: 85px;height: 2px;margin: 20px auto;background: #ff6863;"> </div>
+        <h6>完成的项目</h6>
+      </div>
+    </div>
+    <div class="col-lg-4 col-sm-12 mt-4">
+      <div class="text-center" >
+        <img src="images/Originality/youshandegongjiangxinglingdao.png" alt=""/>
+        <h5>现代奇迹</h5>
+        <div style="display:block;  width: 85px;height: 2px;margin: 20px auto;background: #ff6863;"> </div>
+        <h6>完成的项目</h6>
+      </div>
+    </div>
+  </div>
+
+  <!--印象深刻,我们一起工作吧-->
+  <div class="designers mt-3" style="position: relative">
+    <img class="w-100" src="images/background/work-together.jpg" alt="">
+    <div class="nav" style="position: absolute;z-index:3445;top:40%;left:20%;">
+      <div class="col-12 text-light text-center">
+        <h1 class="mb-3">印象深刻,我们一起工作吧</h1>
+        <span>不过，说实话，我们认为对得起他们，他们是在指责那些谁恨义人，他们的解决这些痛苦的邪恶，为此他ditqs本烦恼，快乐的deleniti</span>
+      </div>
+      <div class="col-12 text-center">
+        <a href="javascript:;" class="btn btn-danger">雇用</a>
+        <a href="javascript:;" class="btn btn-secondary">雇用</a>
+      </div>
+    </div>
+  </div>
+
+  <!--我们的项目-->
+  <div class="text-center mt-4" >
+    <h1>我们的项目</h1>
+    <div style="display:block;  width: 85px;height: 2px;margin: 20px auto;background: #ff6863;"> </div>
+    <h6>完成的项目</h6>
+  </div>
+  <!--项目展示-->
+  <div class="nav m-lg-5 p-lg-5 show" >
+    <div class="col-lg-8 col-sm-12 p-0">
+      <div class="nav p-0">
+        <div style="position: relative;" class="col-sm-12 mb-3">
+          <img class="w-100" src="images/Portfolio/2.jpg" alt=""/>
+          <div style="position: absolute;top:20%;left:20%;">
+            <h5>标题</h5>
+            <span>Lorem ipsum dolor sit amet.</span>
+            <a href="javascript:;">
+              <img class="w-25" src="images/search.png" alt=""/>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-12 mb-3">
+          <img class="w-100" src="images/Portfolio/3.jpg" alt=""/>
+        </div>
+        <div class="col-lg-6 col-sm-12 mb-3">
+          <img class="w-100" src="images/Portfolio/5.jpg" alt=""/>
+        </div>
+
+        <div class="col-sm-12 mb-3">
+          <img class="w-100" src="images/Portfolio/4.jpg" alt=""/>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-sm-12 p-0">
+      <div class="nav">
+        <div class="col-12 mb-3"><img class="w-100" src="images/Portfolio/1.jpg" alt=""/></div>
+        <div class="col-12 mb-3"><img class="w-100" src="images/Portfolio/6.jpg" alt=""/></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 我们的技能 -->
+  <div class="nav m-lg-5 p-lg-5">
+    <div class="col-lg-6 col-sm-12">
+      <div class="text-center mt-4" >
+        <h1>我们的技能</h1>
+        <div style="display:block;  width: 85px;height: 2px;margin: 20px auto;background: #ff6863;"> </div>
+        <h6>完成的项目</h6>
+      </div>
+    </div>
+    <div class="col-lg-6 col-sm-12">
+      <h6>平面设计</h6>
+      <div class="progress mb-3" style="height: 8px;">
+        <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      <h6>活版印刷</h6>
+      <div class="progress mb-3" style="height: 8px;">
+        <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      <h6>HTML5</h6>
+      <div class="progress mb-3" style="height: 8px;">
+        <div class="progress-bar bg-success" role="progressbar" style="width: 90%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      <h6>css3</h6>
+      <div class="progress mb-3" style="height: 8px;">
+        <div class="progress-bar bg-info" role="progressbar" style="width: 80%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+    </div>
+  </div>
+  <!-- 数据说话 -->
+  <div class="nav mb-5">
+    <div class="col-3">
+      <div class="text-center mt-4" >
+    <h1>4566</h1>
+    <div style="display:block;  width: 85px;height: 2px;margin: 20px auto;background: #ff6863;"> </div>
+    <h6>完成的项目</h6>
+  </div>
+    </div>
+    <div class="col-3">
+      <div class="text-center mt-4" >
+    <h1>4566</h1>
+    <div style="display:block;  width: 85px;height: 2px;margin: 20px auto;background: #ff6863;"> </div>
+    <h6>快乐的客户</h6>
+  </div>
+    </div>
+    <div class="col-3">
+      <div class="text-center mt-4" >
+    <h1>4566</h1>
+    <div style="display:block;  width: 85px;height: 2px;margin: 20px auto;background: #ff6863;"> </div>
+    <h6>几小时的工作</h6>
+  </div>
+    </div>
+    <div class="col-3">
+      <div class="text-center mt-4" >
+    <h1>4566</h1>
+    <div style="display:block;  width: 85px;height: 2px;margin: 20px auto;background: #ff6863;"> </div>
+    <h6>一杯咖啡</h6>
+  </div>
+    </div>
+  </div>
+
+  <!-- 我们的证言 -->
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="images/city/jlp.jpg" alt="First slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>内嵌的庭院——吉隆坡阿丽拉孟沙酒店</h5>
+          <p>吉隆坡阿丽拉酒店位于这座城市曾经的殖民地布里克菲尔德街区和新兴街区孟沙的交界处，新与旧的街区之间体现着过去与现在的联系。酒店包括一座塔楼的地上一层和顶部的八层，其中设有五层客房区域和三层公共区域。如恩负责酒店部分的建筑和室内设计，采用整齐的方格结构贯穿建筑外立面和室内空间，并通过这种规律的格式框定出酒店不同功能空间的界限。</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="images/city/blg.jpg" alt="Second slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>布拉格月球俱乐部，繁星密布的神秘空间</h5>
+          <p>Formafatal 与Machar&Teichman组成的联合创意工作团队被委托设计这个富有神秘感的月球俱乐部（Moon club），俱乐部位于活力的布拉格市区Dlouhá街上。新开业的俱乐部为这座城市带来了一种全新原创的室内设计风格。业主的愿景是设计一个充满细节的内部空间，使之与同行业相比，处于更高的水准。</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="images/city/mdl.jpg" alt="Third slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>马德里COOLROOMS Atocha酒店，轻松惬意与复杂精致的美学打造梦幻空间</h5>
+          <p>酒店位于马德里历史悠久的Barrio de Las Letras 区最具代表性的Atocha街34号，在一栋周围环绕着独特建筑的1852年的宫殿式建筑内部。项目的灵感来源于“出售美梦”（the sale of dreams），换句话说，就是把宫殿变成最好的住宿空间。</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <!-- 我们的定价 -->
+  <div class="nav">
+    <div class="col-12">
+      <div class="text-center mt-3" >
+          <h1>我们的定价</h1>
+          <div class="text-center" style="display:block;  width: 85px;height: 2px;margin: 20px auto;background: #ff6863;"> </div>
+          <h6>Lorem存有悲坐阿梅德，consectetuer adipiscing ELIT，sed的直径nonummy NIBH euis</h6>
+      </div>
+    </div>
+    <div class="col-12 my-3">
+      <div class="nav mb-3">
+        <!-- 左 -->
+        <div class="col-lg-4 col-sm-12 text-center">
+          <div class="nav">
+            <div class="col-12 ">
+              <h5>启动</h5>
+            </div>
+            <div class="col-12 mt-3 mb-1">
+              <div style="position:relative; left:35%">
+                <div style="width:150px;height:150px;border-radius:50%;background-color: #ff6863"></div>
+                <div class="align-center" style="position:absolute;z-index:1;top:10px;left:10px;width:130px;height:130px;border-radius:50%;border:2px solid white">
+                  <div class="text-center py-4">
+                    <h2>$345</h2>
+                    <p>每月</p>
+                  </div>  
+                </div>
+              </div>
+            </div>
+            <div class="col-12 mt-2">
+              <div class="my-2">
+                <img src="images/ourPrice/dagou.png" alt=""><span>10个用户</span>
+              </div>
+              <div class="my-2">
+                <img src="images/ourPrice/guanbi.png" alt=""><span>无限带宽</span>
+              </div>
+              <div class="my-2">
+                <img src="images/ourPrice/dagou.png" alt=""><span>无限带宽</span>
+              </div>
+            </div>
+            <div class="col-12 mt-3">
+              <button class="btn" style="width:30%;background-color:#ff6863">套餐一</button>
+            </div>
+          </div>
+        </div>
+        <!-- 中 -->
+        <div class="col-lg-4 col-sm-12 text-center">
+          <div class="nav">
+            <div class="col-12 ">
+              <h5>启动</h5>
+            </div>
+            <div class="col-12 mt-3 mb-1">
+              <div style="position:relative; left:35%">
+                <div style="width:150px;height:150px;border-radius:50%;background-color: #ff6863"></div>
+                <div class="align-center" style="position:absolute;z-index:1;top:10px;left:10px;width:130px;height:130px;border-radius:50%;border:2px solid white">
+                  <div class="text-center py-4">
+                    <h2>$345</h2>
+                    <p>每月</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 mt-2">
+              <div class="my-2">
+                <img src="images/ourPrice/dagou.png" alt=""><span>10个用户</span>
+              </div>
+              <div class="my-2">
+                <img src="images/ourPrice/guanbi.png" alt=""><span>无限带宽</span>
+              </div>
+              <div class="my-2">
+                <img src="images/ourPrice/dagou.png" alt=""><span>无限带宽</span>
+              </div>
+            </div>
+            <div class="col-12">
+              <button class="btn mt-3" style="width:30%;background-color:#ff6863">套餐一</button>
+            </div>
+          </div>
+        </div>
+        <!-- 右 -->
+        <div class="col-lg-4 col-sm-12 text-center">
+          <div class="nav">
+            <div class="col-12 ">
+              <h5>启动</h5>
+            </div>
+            <div class="col-12 mt-3 mb-1">
+              <div style="position:relative; left:35%">
+                <div style="width:150px;height:150px;border-radius:50%;background-color: #ff6863"></div>
+                <div class="align-center" style="position:absolute;z-index:1;top:10px;left:10px;width:130px;height:130px;border-radius:50%;border:2px solid white">
+                  <div class="text-center py-4">
+                    <h2>$345</h2>
+                    <p>每月</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 mt-2">
+              <div class="my-2">
+                <img src="images/ourPrice/dagou.png" alt=""><span>10个用户</span>
+              </div>
+              <div class="my-2">
+                <img src="images/ourPrice/guanbi.png" alt=""><span>无限带宽</span>
+              </div>
+              <div class="my-2">
+                <img src="images/ourPrice/dagou.png" alt=""><span>无限带宽</span>
+              </div>
+            </div>
+            <div class="col-12 mt-3">
+              <button class="btn" style="width:30%;background-color:#ff6863">套餐一</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- 合作伙伴,支持,订阅,打赏我们 -->
+  <div class="nav">
+    <div class="col-12 mb-5">
+      <div class="nav">
+        <div class="col-lg-2 col-md-4 col-sm-6" style="justify-content: space-around">
+          <a href="javascript:;"><img class="px-2" src="images/clients/1.jpg" alt=""></a>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <a href="javascript:;"><img class="px-2" src="images/clients/4.jpg" alt=""></a>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <a href="javascript:;"><img class="px-2" src="images/clients/2.jpg" alt=""></a>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <a href="javascript:;"><img class="px-2" src="images/clients/3.jpg" alt=""></a>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <a href="javascript:;"><img class="px-2" src="images/clients/5.jpg" alt=""></a>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <a href="javascript:;"><img class="px-2" src="images/clients/1.jpg" alt=""></a>
+        </div>    
+        
+      </div>
+    </div>
+    <div class="col-12 mb-5">
+      <div style="position:relative">
+        <img style="width:100%" src="images/background/subscribe.jpg" alt="">
+        <div style="position:absolute;z-index:1;top:50%;left:35%" class="text-light">
+            <h1>订阅我们</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quia laborum qui?</p>
+            <form action="">
+              <input type="email" class="pl-2 w-50"placeholder="email address">
+              <button type="submit" class="btn" style="background-color:#ff6863">订阅</button>
+            </form>
+          </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- 博客 -->
+  <div class="nav">
+    <div class="col-12 p-5">
+      <div class="text-center mt-4 " >
+        <h1>最近的博客</h1>
+        <div style="display:block;  width: 85px;height: 2px;margin: 20px auto;background: #ff6863;"> </div>
+        <p class="px-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In minima nostrum tempore modi! Vitae deleniti quia quas iure perspiciatis assumenda ratione explicabo nisi.</p>
+      </div>     
+    </div>
+    <div class="col-12">
+      <div class="nav">
+        <div class="col-lg-4 col-sm-12">
+          <div>
+            <img class="w-100 mb-5" src="images/Blog/1.jpg" alt="">
+            <h5 class="text-center mb-3">没有顾虑</h5>
+            <ul class="breadcrumb">
+              <li class="breadcrumb-item"><a class="text-muted" href="javascript:;">2016年5月15日</a></li>
+              <li class="breadcrumb-item"><a class="text-muted" href="javascript:;">damin</a></li>
+              <li class="breadcrumb-item"><a class="text-muted" href="javascript:;">合作</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+            <div>
+              <img class="w-100 mb-5" src="images/Blog/1.jpg" alt="">
+              <h5 class="text-center mb-3">没有顾虑</h5>
+              <ul class="breadcrumb">
+                <li class="breadcrumb-item"><a class="text-muted" href="javascript:;">2016年5月15日</a></li>
+                <li class="breadcrumb-item"><a class="text-muted" href="javascript:;">damin</a></li>
+                <li class="breadcrumb-item"><a class="text-muted" href="javascript:;">合作</a></li>
+              </ul>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+            <div>
+              <img class="w-100 mb-5" src="images/Blog/1.jpg" alt="">
+              <h5 class="text-center mb-3">没有顾虑</h5>
+              <ul class="breadcrumb">
+                <li class="breadcrumb-item"><a class="text-muted" href="javascript:;">2016年5月15日</a></li>
+                <li class="breadcrumb-item"><a class="text-muted" href="javascript:;">damin</a></li>
+                <li class="breadcrumb-item"><a class="text-muted" href="javascript:;">合作</a></li>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 联系我们 -->
+  <div class="nav">
+     <!-- 在地图上找到我们-->
+    <div class="col-12">
+        <div id="allmap"></div>
+    </div>
+    <div class="col-12">
+      <div class="nav">
+        <div class="col-lg-6 col-sm-12">
+          <div class="text-center mt-4 " >
+            <h1>最近的博客</h1>
+            <div style="display:block;  width: 85px;height: 2px;margin: 20px auto;background: #ff6863;"> </div>
+            <p class="px-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In minima nostrum tempore modi! Vitae deleniti quia quas iure perspiciatis assumenda ratione explicabo nisi.</p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+          <form action="get">
+            <input type="text" name="uname" autofocus required placeholder="请输入您的姓名">
+            <input type="phone" name="phone" autofocus required pattern="1[0-9]\d{9}" placeholder="请输入您的手机号">
+            <br>
+            <textarea rows="10" cols="30" value="messages" style="width:100%;height:50%">messages</textarea>
+            <br>
+            <button class="btn" style="width:100%;height:50px;background-color:#ff6863">发消息</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 左下角跳到顶部 -->
+  <div style="position:fixed;bottom:20px;left:20px;background-color:#ff6863;width:5%;height:50px">
+      <nav class="navbar navbar-light " >
+        <a class="navbar-brand text-center" href="#">top</a>
+      </nav>
+  </div>
+  <hr/>
+
+  <!-- 右下角展开其他信息 -->
+  <div class="btn-group" style="position:fixed;bottom:20px;right:20px;height:50px">
+    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      历史
+    </button>
+    <div class="dropdown-menu dropdown-menu-right">
+    <button class="dropdown-item" type="button">Action</button>
+    <button class="dropdown-item" type="button">Another action</button>
+    <button class="dropdown-item" type="button">Something else here</button>
+    <div class="dropdown-divider"></div>
+    <h1 class="dropdown-header">标题</h1>
+    <a class="dropdown-item" href="">Action</a>
+    <a class="dropdown-item" href="">Another action</a>
+  </div>
+  </div>
+  <br/>
+  <br/>
+
+
+</main>
+<!-- 尾部 -->
+<footer id="footer" class="container-fluid"></footer>
+<script src="http://api.map.baidu.com/api?v=2.0&ak=U9Iqyifb3lW5ajQwLPM16KEGuZ2RuSfW">
+	// 百度地图API功能
+	var map = new BMap.Map("allmap");    // 创建Map实例
+	map.centerAndZoom(new BMap.Point(116.404, 39.915), 11);  // 初始化地图,设置中心点坐标和地图级别
+	//添加地图类型控件
+	map.addControl(new BMap.MapTypeControl({
+		mapTypes:[
+      BMAP_NORMAL_MAP,
+      BMAP_HYBRID_MAP
+    ]}));
+    map.setCurrentCity("北京");
+    // map.enableScrollwheelZoom(true);
+    map.enableScrollWheelZoom(true); 
+</script>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/header.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

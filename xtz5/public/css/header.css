@@ -1,0 +1,18 @@
+.container-fluid{
+    padding-left:0px;
+    padding-right:0px;
+}
+.dropdown-toggle::after{
+    border:0px solid transparent;
+}
+
+
+/* 下拉登录注册框 */
+
+.nav-item .btn-group .dropdown{
+  position: absolute;
+  z-index:500;
+  top:100px;
+  left:300px;
+  
+}
